@@ -10,7 +10,18 @@ page{
     padding-top:100px;
     padding-left:20px;
 }
-
+#z{
+    display: block;
+    font-size: 30px;
+    animation: zhen 5s infinite;
+}
+@keyframes zhen {
+    0%{opacity: 0}
+    60%{opacity: 0}
+    80%{opacity: 0}
+    90%{opacity: 100}
+    100%{opacity: 0}
+}
 @keyframes chun {
     0%{opacity: 0}
     20%{opacity: 100}
@@ -35,6 +46,7 @@ page{
     0%{opacity: 0}
     60%{opacity: 0}
     80%{opacity: 100}
+    90%{opacity: 0}
     100%{opacity: 0}
 }
 
@@ -53,6 +65,8 @@ page{
     animation: qiu 5s infinite;
     color: firebrick;
     background-color: lightgoldenrodyellow;
+    background-image: url(../images/9-1F125162103-501.jpg);
+    background-size:100% 100%;
 }
 #dong{
     animation:dong 5s infinite;
