@@ -1,0 +1,61 @@
+html,body,page{
+    margin: 0px;
+    width: 100%;
+
+}
+page{
+    font-size: 90px;
+    height: 100%;
+    position: absolute;
+    padding-top:100px;
+    padding-left:20px;
+}
+
+@keyframes chun {
+    0%{opacity: 0}
+    20%{opacity: 100}
+    40%{opacity: 0}
+    100%{opacity: 0}
+}
+@keyframes xia {
+    0%{opacity: 0}
+    20%{opacity: 0}
+    40%{opacity: 100}
+    60%{opacity: 0}
+    100%{opacity: 0}
+}
+@keyframes qiu {
+    0%{opacity: 0}
+    40%{opacity: 0}
+    60%{ opacity: 100}
+    80%{opacity: 0}
+    100%{opacity: 0}
+}
+@keyframes dong {
+    0%{opacity: 0}
+    60%{opacity: 0}
+    80%{opacity: 100}
+    100%{opacity: 0}
+}
+
+#chun{
+    animation: chun 5s infinite;
+    color: deepskyblue;
+    background-color: green;
+}
+
+#xia{
+    animation: xia 5s infinite;
+    color: red;
+    background-color:yellow;
+}
+#qiu{
+    animation: qiu 5s infinite;
+    color: firebrick;
+    background-color: lightgoldenrodyellow;
+}
+#dong{
+    animation:dong 5s infinite;
+    color: white;
+    background-color: saddlebrown;
+}
